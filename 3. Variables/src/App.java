@@ -3,7 +3,7 @@ public class App {
     public static void main(String[] args) throws Exception {
         // scope local
 
-        // Informacion tipos de datos primitivos
+        // Información tipos de datos primitivos
         // https://www.abrirllave.com/java/tipos-de-datos-primitivos.php
 
         // Convenciones para nombrar variables
