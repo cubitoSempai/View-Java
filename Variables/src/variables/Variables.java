@@ -1,6 +1,8 @@
-public class App {
-    // scope global
-    public static void main(String[] args) throws Exception {
+package variables;
+
+public class Variables {
+
+    public static void main(String[] args) {
         // scope local
 
         // Información tipos de datos primitivos
@@ -25,4 +27,5 @@ public class App {
         // String
         // string nombreVariable;
     }
+    
 }
