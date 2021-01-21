@@ -11,6 +11,7 @@
         1.6. Clase Math
 
     2. Semana 2
+        2.1. EntradaYSalidaDatos
     3. Semana 3
     4. Semana 4
     5. Semana 5
