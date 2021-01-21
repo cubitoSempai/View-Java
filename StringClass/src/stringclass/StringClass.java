@@ -4,7 +4,7 @@ public class StringClass {
 
     public static void main(String[] args) {
         // -->Tema: Declaración de variable String
-        String nombre = "christian mesa maRay";
+        String nombre = "christian mesa maRay\n";
 
         /* -->Tema: Concatenar
          * -->Uso: Posible uso es para unir textos y 
@@ -28,7 +28,7 @@ public class StringClass {
          * ingresado por el usuario permitiendo que aun si lo escribe
          * sin el formato de mayúsculas iniciales el sistema lo mantenga
          */
-        System.out.println("Mi nombre esta en mayusculas ----> " + nombre.toUpperCase());
+        System.out.println("\nUpperCase: " + nombre.toUpperCase());
 
         /* -->LowerCase: La función UpperCase nos permite convertir 
          * las primeras letras de una cadena en minusculas
@@ -37,10 +37,10 @@ public class StringClass {
          * ingresado por el usuario permitiendo que aun si lo escribe
          * sin el formato de minusculas iniciales el sistema lo mantenga
          */
-        System.out.println("Mi nombre esta en minusculas ----> " + nombre.toLowerCase());
+        System.out.println("\nLowerCase: " + nombre.toLowerCase());
 
         // Quiero saber el número de caracteres que tiene una cadena
-        System.out.println("El nombre tiene " + nombre.length() + " caracteres");
+        System.out.println("\nLength: " + nombre.length() + " caracteres");
 
         /* Obtener una posicion especifica de una cadena de texto
          *
@@ -48,7 +48,7 @@ public class StringClass {
          * que personas tienen un nombre con una inicial
          *
          */
-        System.out.println(nombre.charAt(0));
+        System.out.println("\ncharAt: "+nombre.charAt(0));
 
         /* Quiero obtener un fragmento determinado de la caden a 
          * desde la posicion "n" siendo "n" substring(n);
@@ -56,21 +56,18 @@ public class StringClass {
          * tambien tiene una implementacion con rango, siendo asi
          * substring(inicio, fin);
          */
-        System.out.println(nombre.substring(0));
+        System.out.println("\nsubstring: "+nombre.substring(0));
 
         // Quiero quitar los espacios centrales en una cadena
-        System.out.println(nombre.replace(" ", ""));
+        System.out.println("\nrepleace: "+nombre.replace(" ", ""));
 
         /* Quitar espacios a los extremos de una cadena,
          * un ejemplo podria ser el ingreso en formulario
          */
-        System.out.println(nombre.trim());
+        System.out.println("\ntrim: "+nombre.trim());
 
-        // asi posemos saber si una cadena esta vacia
-        System.out.println(nombre.isEmpty());
-
-        //
-        System.out.println(nombre.isEmpty());
+        // Asi posemos saber si una cadena esta vacia
+        System.out.println("\nisEmpty: "+nombre.isEmpty());
     }
 
 }
